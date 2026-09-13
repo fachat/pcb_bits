@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.2,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -683,9 +684,14 @@
         "filename": "usb.kicad_sch",
         "name": "USB",
         "uuid": "d4f435f9-695d-422f-9894-15a20b29134d"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "69e69480-7ed8-4b0d-816e-564cc5bba282"
       }
     ],
-    "used_designators": "Q3,IC1,IC4,TO1-2,#GND1-9,#GND23,#GND104,#GND119-122,U1-3,U11,#SUPPLY1,#SUPPLY3-5,SJ1-12,#FRAME1,C1-14,C34-35,C39-40,C151-152,C156,J3,CN1,P2-3,#P+1-5,R1,R4-5,R8-11,R19,R41-42,JP1,JP3,JP23,#V1-3",
+    "used_designators": "#P+1-8,R1,R4-5,R8-11,R19,R41-42,P2-3,#V1-3,JP1-3,JP23,Q3,IC1,IC4,TO1-2,#GND1-11,#GND23,#GND25,#GND104,#GND119-122,U1-4,U11,#SUPPLY1,#SUPPLY3-6,SJ1-12,UX3,#FRAME1,C1-14,C34-35,C39-40,C43,C45-47,C151-152,C156,J3,CN1",
     "variants": []
   },
   "sheets": [
@@ -700,6 +706,10 @@
     [
       "d4f435f9-695d-422f-9894-15a20b29134d",
       "USB"
+    ],
+    [
+      "69e69480-7ed8-4b0d-816e-564cc5bba282",
+      "Power"
     ]
   ],
   "text_variables": {},

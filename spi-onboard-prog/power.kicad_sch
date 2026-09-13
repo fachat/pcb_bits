@@ -2,9 +2,636 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "6ac4c713-7191-4dc0-9fbb-11a1b8a224ad")
+	(uuid "c918b822-a1c6-4801-99c8-159b7f855e62")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cbm_ultipet_v1-eagle-import:C-EUC0603"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:C0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0603_1_0"
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cbm_ultipet_v1-eagle-import:GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "cbm_ultipet_v1-eagle-import:LDI1117"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at -7.62 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -7.62 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cbm_ultipet_v1:SOT223"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LDI1117_1_0"
+				(polyline
+					(pts
+						(xy -7.62 5.08) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "GND"
+					(at -2.032 -1.778 0)
+					(effects
+						(font
+							(size 1.524 1.2954)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cbm_usb_v1-eagle-import:3.3V"
 			(power global)
 			(exclude_from_sim no)
@@ -123,1815 +750,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cbm_usb_v1-eagle-import:C-EU050-025X075"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:C050-025X075"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU050-025X075_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:C-EU050-030X075"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 0.381 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:C050-030X075"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU050-030X075_1_0"
-				(rectangle
-					(start -2.032 -1.016)
-					(end 2.032 -0.508)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:CBMTAPE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:JP6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CBMTAPE_1_0"
-				(polyline
-					(pts
-						(xy -7.62 15.24) (xy 5.08 15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -7.62) (xy -7.62 15.24)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 15.24) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy -7.62 -7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 10.16 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "MOTOR"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "READ"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "WRITE"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "SWITCH"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:CPOL-EUE3.5-8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:E3,5-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "POLARIZED CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL-EUE3.5-8_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:CPOL-EUE5-10.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:E5-10,5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "POLARIZED CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL-EUE5-10.5_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:CPOL-EUE5-8.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:E5-8,5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "POLARIZED CAPACITOR, European symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL-EUE5-8.5_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width -0.0001)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:GND"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#GND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SUPPLY SYMBOL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_1_0"
-				(polyline
-					(pts
-						(xy -1.905 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:JP2E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at -3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 5.715 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:JP2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "JUMPER"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JP2E_1_0"
-				(polyline
-					(pts
-						(xy -3.175 0.635) (xy -3.175 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0.635) (xy -3.175 0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:LM2937"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TO220"
-				(at -7.62 8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:TO220H"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM2937_1_0"
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "GND"
-					(at -2.032 -1.778 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "cbm_usb_v1-eagle-import:LM2937SOT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TO220"
-				(at -7.62 8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -7.62 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "cbm_usb_v1:SOT223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM2937SOT_1_0"
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -7.62 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "GND"
-					(at -2.032 -1.778 0)
-					(effects
-						(font
-							(size 1.524 1.2954)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "cbm_usb_v1-eagle-import:VCC"
 			(power global)
 			(exclude_from_sim no)
@@ -2038,902 +856,313 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "750mA, according to LM2937 datasheet"
-		(exclude_from_sim no)
-		(at 86.36 48.895 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "0bf24602-df65-46d0-bca2-7dc76cb20c60")
-	)
-	(text "400/500mA, according to LM2937 datasheet"
-		(exclude_from_sim no)
-		(at 73.66 125.095 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "29c7354a-8e6c-4d12-8c50-f4f2171d71a6")
-	)
-	(text "V1.0 - Initial version"
-		(exclude_from_sim no)
-		(at 157.48 130.175 0)
-		(effects
-			(font
-				(size 1.9304 1.6408)
-			)
-			(justify left bottom)
-		)
-		(uuid "925693dc-dc34-476a-9d15-54f8674236de")
-	)
-	(text "3.3V Generation"
-		(exclude_from_sim no)
-		(at 73.66 122.555 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "9aebffb8-b721-4f24-8a2a-f621a8e991a4")
-	)
-	(text "V1.2 08/2018 - different USB connectors, Pwr regulators"
-		(exclude_from_sim no)
-		(at 157.48 140.335 0)
-		(effects
-			(font
-				(size 1.9304 1.6408)
-			)
-			(justify left bottom)
-		)
-		(uuid "aeccd32d-660a-486d-a671-69859c10f13d")
-	)
-	(text "V1.1 10/2013 - Added 5V generation from TAPE power supply"
-		(exclude_from_sim no)
-		(at 157.48 135.255 0)
-		(effects
-			(font
-				(size 1.9304 1.6408)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7c75239-33de-4579-b5c0-bc31f8dacd4c")
-	)
-	(text "CBM-USB-V1.2A-20180813"
-		(exclude_from_sim no)
-		(at 219.075 186.69 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "f27cfb81-7dc6-49e6-855a-c60bef68b4fa")
-	)
 	(junction
-		(at 124.46 97.155)
+		(at 88.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b0ea9fe-827b-40de-8dc4-8bc934ef846d")
+		(uuid "2fd83c1a-06e7-4181-bb85-228ca869dac9")
 	)
 	(junction
-		(at 78.74 71.755)
+		(at 96.52 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1dfb0005-522d-4915-b86e-59cd836f3428")
+		(uuid "71fad7c0-afdb-4428-90d3-0f0d9c194fb1")
 	)
 	(junction
-		(at 76.2 97.155)
+		(at 96.52 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24f084da-5032-4f59-b295-37fff03d5057")
+		(uuid "91973125-7c59-4a83-966e-edb979068883")
 	)
 	(junction
-		(at 76.2 112.395)
+		(at 147.32 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33ffc1ad-3d36-497a-a861-8290cf1af09c")
+		(uuid "9a37969b-bfbc-4162-861f-0878be75da81")
 	)
 	(junction
-		(at 78.74 59.055)
+		(at 134.62 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d2a4a2a-87b3-4f0b-8508-8c6c53231486")
+		(uuid "a70605ed-3227-440d-8af1-02fad9634c2c")
 	)
 	(junction
-		(at 99.06 71.755)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ecbbbca-f4d3-455b-8313-19053f0de1e3")
+		(uuid "d5488fdb-0ab0-4e2f-9178-22e450209135")
 	)
 	(junction
-		(at 68.58 97.155)
+		(at 82.55 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6bd686df-5646-4b21-98b1-bcc880d3c392")
+		(uuid "dcf22029-1eba-468c-abf0-f30572f7d9ef")
 	)
 	(junction
-		(at 213.36 94.615)
+		(at 144.78 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7eb4faf4-716a-4afd-8f7e-ac2d4eef8314")
+		(uuid "f386e9ea-92f4-4551-8153-0d0ef4bfd5ea")
 	)
 	(junction
-		(at 68.58 59.055)
+		(at 134.62 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7ebf3af1-958a-4b9f-bcd5-50cd197b7064")
+		(uuid "f7923618-8755-49bb-8396-91cbd64c4feb")
 	)
-	(junction
-		(at 114.3 97.155)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eb869eb-b236-4dfc-8d72-dbf235440999")
-	)
-	(junction
-		(at 114.3 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a06d19bd-0c15-4129-91e0-79a3b3fc95f1")
-	)
-	(junction
-		(at 127 59.055)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a902b480-4aaa-4873-8668-3214e7a89a92")
-	)
-	(junction
-		(at 116.84 71.755)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbcf65ea-c9c7-41a4-b345-1db42af6c197")
-	)
-	(junction
-		(at 213.36 81.915)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8ee4711-9897-49a9-86c2-8a68ee1a8c05")
-	)
-	(junction
-		(at 96.52 112.395)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed3e7501-10e7-4c55-a9b1-f30115db26af")
-	)
-	(junction
-		(at 116.84 59.055)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe6d0472-45c1-4f67-b9f9-ba55f19cc60e")
-	)
-	(wire
-		(pts
-			(xy 198.12 61.595) (xy 220.98 61.595)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "023aa096-73d3-4363-a111-3c040ae9a4dd")
-	)
-	(wire
-		(pts
-			(xy 157.48 64.135) (xy 170.18 64.135)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "023e4ec0-119c-40a9-8b3c-9af422f9cf93")
-	)
-	(wire
-		(pts
-			(xy 78.74 61.595) (xy 78.74 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "13c701f9-4e09-4e3b-95f6-fb3ceae3a7be")
-	)
-	(wire
-		(pts
-			(xy 223.52 81.915) (xy 223.52 84.455)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c32da93-18c0-41fd-9dbd-12adcc23d730")
-	)
-	(wire
-		(pts
-			(xy 154.94 64.135) (xy 154.94 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1d3ed727-e779-4b1b-be29-ce145517187d")
-	)
-	(wire
-		(pts
-			(xy 96.52 112.395) (xy 114.3 112.395)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "23686320-52ad-48f5-be0c-de9becb55387")
-	)
-	(wire
-		(pts
-			(xy 127 59.055) (xy 144.78 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "272389fc-f742-49cf-aa7d-2dfc2ba425ed")
-	)
-	(wire
-		(pts
-			(xy 172.72 84.455) (xy 200.66 84.455)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "289b9fad-dd4f-4a73-a20e-2ebbfda40b98")
-	)
-	(wire
-		(pts
-			(xy 106.68 97.155) (xy 114.3 97.155)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2d9cbe06-869a-48f9-8233-88cf59d1572f")
-	)
-	(wire
-		(pts
-			(xy 213.36 81.915) (xy 213.36 79.375)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2e8f1e0f-3994-4bc1-9c8c-45d585fbf416")
-	)
-	(wire
-		(pts
-			(xy 144.78 64.135) (xy 154.94 64.135)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "31bacd02-1467-417f-875e-5b4e067e6a7e")
-	)
-	(wire
-		(pts
-			(xy 116.84 71.755) (xy 127 71.755)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "32ef7fbd-3f6c-44d6-940d-7559878420d3")
-	)
-	(wire
-		(pts
-			(xy 223.52 94.615) (xy 223.52 92.075)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "37e9c555-879c-470b-b9e3-9852f0265e20")
-	)
-	(wire
-		(pts
-			(xy 116.84 59.055) (xy 127 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "37f85a54-e1f4-4021-8a35-7276f0fcd305")
-	)
-	(wire
-		(pts
-			(xy 76.2 112.395) (xy 68.58 112.395)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "38df0dda-cbb8-4de1-8231-86c85f82818b")
-	)
-	(wire
-		(pts
-			(xy 124.46 112.395) (xy 124.46 109.855)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3bd8d753-5d50-4ebd-89a0-0d09668b15ac")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.755) (xy 116.84 71.755)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3cb83428-c4ae-4bf0-862f-5a9bc476332c")
-	)
-	(wire
-		(pts
-			(xy 116.84 69.215) (xy 116.84 71.755)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4269b7a6-756e-411a-9bc1-791c852d9a65")
-	)
-	(wire
-		(pts
-			(xy 76.2 97.155) (xy 68.58 97.155)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "48ac9e0b-eb29-4e2b-88da-97164b48e631")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.155) (xy 124.46 97.155)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "51f3f07f-9bc4-4f60-9d23-48fdc55aaff1")
-	)
-	(wire
-		(pts
-			(xy 165.1 61.595) (xy 165.1 56.515)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5228ab94-8aa7-49c5-b3d8-cd40c8457d83")
-	)
-	(wire
-		(pts
-			(xy 68.58 71.755) (xy 78.74 71.755)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "54a70fa8-7783-4dd5-9855-994017b1c514")
-	)
-	(wire
-		(pts
-			(xy 96.52 112.395) (xy 96.52 114.935)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "55a16ed1-aed4-441f-8c9e-912fdd02642f")
-	)
-	(wire
-		(pts
-			(xy 144.78 59.055) (xy 144.78 64.135)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5c226c10-12df-48a1-939d-66875a819581")
-	)
-	(wire
-		(pts
-			(xy 160.02 59.055) (xy 160.02 61.595)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5c8a3019-eca8-49c0-81a7-447cb9a931d0")
-	)
-	(wire
-		(pts
-			(xy 170.18 64.135) (xy 170.18 53.975)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5d4f0399-ade6-475c-8c4f-8ef780c2ef2a")
-	)
-	(wire
-		(pts
-			(xy 76.2 97.155) (xy 76.2 102.235)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6118ae72-5dfc-4785-9837-7a533c3f6709")
-	)
-	(wire
-		(pts
-			(xy 76.2 109.855) (xy 76.2 112.395)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6135aed2-b64e-4bae-a2e6-298716cd65a8")
-	)
-	(wire
-		(pts
-			(xy 172.72 79.375) (xy 198.12 79.375)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "636c875b-1742-4939-864e-fb2e62408941")
-	)
-	(wire
-		(pts
-			(xy 68.58 112.395) (xy 68.58 109.855)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "66fb6221-5097-4622-aed7-6952087dcbeb")
-	)
-	(wire
-		(pts
-			(xy 109.22 59.055) (xy 116.84 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6c6b591d-5ac9-4401-ab3d-3bc9ba174e25")
-	)
-	(wire
-		(pts
-			(xy 63.5 59.055) (xy 68.58 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6cd6f10a-62b3-477d-ac12-c5d09e8b139a")
-	)
-	(wire
-		(pts
-			(xy 114.3 112.395) (xy 124.46 112.395)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7180eb02-10ee-48ce-a3d7-047f9ff48354")
-	)
-	(wire
-		(pts
-			(xy 172.72 92.075) (xy 213.36 92.075)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "71ee3fbd-82b5-4504-9cc5-d5f93367b79a")
-	)
-	(wire
-		(pts
-			(xy 78.74 69.215) (xy 78.74 71.755)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7378865f-8050-4fcb-b06a-42d5bf382c96")
-	)
-	(wire
-		(pts
-			(xy 198.12 79.375) (xy 198.12 61.595)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "744b987d-ef78-4555-bff2-f607883a526f")
-	)
-	(wire
-		(pts
-			(xy 127 61.595) (xy 127 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7d8c01a4-087d-4efa-b39c-d68dc1def4a9")
-	)
-	(wire
-		(pts
-			(xy 116.84 61.595) (xy 116.84 59.055)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "87752be4-5245-4cb3-b094-92bcafdf4749")
-	)
-	(wire
-		(pts
-			(xy 180.34 43.815) (xy 180.34 86.995)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8996e27a-be44-4cfa-959d-c68311c37644")
-	)
-	(wire
-		(pts
-			(xy 114.3 112.395) (xy 114.3 109.855)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8ac71388-3421-48d0-829d-b4e99b8c1460")
-	)
-	(wire
-		(pts
-			(xy 172.72 89.535) (xy 213.36 89.535)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8d515aa3-9d7f-4f9f-a9cc-a4bc79eca991")
-	)
-	(wire
-		(pts
-			(xy 213.36 92.075) (xy 213.36 94.615)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "928ef3a3-82f9-468e-809b-fd4449f271c6")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.155) (xy 114.3 102.235)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "94a704d6-7dd6-4ea3-8df5-77cb2077910c")
-	)
-	(wire
-		(pts
-			(xy 68.58 102.235) (xy 68.58 97.155)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "99925f21-851a-4042-8548-98499db98334")
-	)
-	(wire
-		(pts
-			(xy 63.5 59.055) (xy 63.5 43.815)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a8a24a1f-4686-4c0e-b223-1a6dfd37859d")
-	)
-	(wire
-		(pts
-			(xy 127 71.755) (xy 127 69.215)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "aa8f367b-a3bc-450e-a6be-788221e87de3")
-	)
-	(wire
-		(pts
-			(xy 213.36 81.915) (xy 223.52 81.915)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab0b7300-6ee5-4774-8618-640b0c6493a4")
-	)
 	(wire
 		(pts
-			(xy 124.46 102.235) (xy 124.46 97.155)
+			(xy 116.84 68.58) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ac2e0fb3-58ed-47aa-84e3-94f0d3918ef6")
+		(uuid "044c9748-13ed-49f4-b3b8-689345e1a93b")
 	)
 	(wire
 		(pts
-			(xy 170.18 53.975) (xy 220.98 53.975)
+			(xy 116.84 76.2) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b8183e61-af89-4052-92b3-ee80257965fc")
+		(uuid "094f6f12-edc6-44ce-a456-022ad9c19db5")
 	)
 	(wire
 		(pts
-			(xy 86.36 97.155) (xy 76.2 97.155)
+			(xy 127 60.96) (xy 134.62 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "b8fc1fc2-a73c-4183-abfb-22b32426fd29")
+		(uuid "1912c171-2230-4371-ac45-53146e2b056d")
 	)
 	(wire
 		(pts
-			(xy 200.66 84.455) (xy 200.66 64.135)
+			(xy 82.55 58.42) (xy 82.55 60.96)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "bbb4280c-b586-4eb6-a911-8dba1c96b724")
+		(uuid "1a119752-f791-4903-969a-d4009661e31b")
 	)
 	(wire
 		(pts
-			(xy 78.74 59.055) (xy 88.9 59.055)
+			(xy 96.52 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c1080f35-82e6-4563-81b2-3e7a92323867")
+		(uuid "2b099514-790d-47c2-9080-fe2b37ebb752")
 	)
 	(wire
 		(pts
-			(xy 213.36 94.615) (xy 223.52 94.615)
+			(xy 82.55 60.96) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c285e467-db0c-4aa1-ac63-879814c17aa0")
+		(uuid "2bf006f9-247e-4d4d-94d4-408f8966896b")
 	)
 	(wire
 		(pts
-			(xy 99.06 71.755) (xy 99.06 66.675)
+			(xy 96.52 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c712843a-4a7d-47e3-a797-90eac1bf2019")
+		(uuid "2c4f25df-213a-4d2e-9ee8-c21068e32960")
 	)
 	(wire
 		(pts
-			(xy 157.48 59.055) (xy 157.48 64.135)
+			(xy 144.78 76.2) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ccacb744-6c6f-4a21-a5a5-f934721c33e6")
+		(uuid "2f7488d1-9d41-4f1b-8b40-29289a4a255e")
 	)
 	(wire
 		(pts
-			(xy 124.46 97.155) (xy 129.54 97.155)
+			(xy 134.62 76.2) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "cdf6f43f-4e00-4e42-b533-024f508bf0ac")
+		(uuid "4088d7b9-ebd7-4589-8a58-62a69b9e9345")
 	)
 	(wire
 		(pts
-			(xy 200.66 64.135) (xy 220.98 64.135)
+			(xy 96.52 60.96) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "cecd3153-95ea-4997-bfd6-3eb435850eee")
+		(uuid "466abd74-438d-4862-91f0-55955378b1ae")
 	)
 	(wire
 		(pts
-			(xy 68.58 59.055) (xy 78.74 59.055)
+			(xy 106.68 60.96) (xy 96.52 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "cf06e6c5-f7ad-40a8-bb8d-db1e68524a90")
+		(uuid "4a619671-ae21-4bf0-8811-9c8cbefaacd7")
 	)
 	(wire
 		(pts
-			(xy 63.5 43.815) (xy 180.34 43.815)
+			(xy 134.62 60.96) (xy 144.78 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d2773016-59f7-45a1-b413-97aab39a2abb")
+		(uuid "5349b22c-2b74-42c9-b308-f058a8b8ae57")
 	)
 	(wire
 		(pts
-			(xy 180.34 86.995) (xy 172.72 86.995)
+			(xy 144.78 60.96) (xy 147.32 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d576e9ca-3622-4e79-af57-56fdb9b9b294")
+		(uuid "598b95e1-6b95-44a7-9435-55835aa4fd40")
 	)
 	(wire
 		(pts
-			(xy 213.36 94.615) (xy 213.36 97.155)
+			(xy 144.78 66.04) (xy 144.78 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d73c6719-3f35-4617-98c5-24886034f6ee")
+		(uuid "5c10c3c4-f300-45a9-a50e-2819be5fffae")
 	)
 	(wire
 		(pts
-			(xy 68.58 97.155) (xy 66.04 97.155)
+			(xy 134.62 60.96) (xy 134.62 66.04)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "e47bc9cb-b6c3-430f-9071-0c3ea09a7933")
+		(uuid "5d570b64-0202-49da-b63e-92832a0c629e")
 	)
 	(wire
 		(pts
-			(xy 78.74 71.755) (xy 99.06 71.755)
+			(xy 96.52 60.96) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "e8189c84-5775-4d2d-bfc8-ec954682518e")
+		(uuid "629f95d0-6ae7-4e11-b8be-4d3ac60427ad")
 	)
 	(wire
 		(pts
-			(xy 76.2 112.395) (xy 96.52 112.395)
+			(xy 96.52 73.66) (xy 96.52 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "e8ffffab-fab3-403a-b438-280f6e336158")
+		(uuid "6577c233-b022-49f8-8716-7a1ceec11ccb")
 	)
 	(wire
 		(pts
-			(xy 68.58 69.215) (xy 68.58 71.755)
+			(xy 88.9 76.2) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ee87b821-1545-4628-9f96-fcfb9dd28ce7")
+		(uuid "67af5830-4b0c-4b83-8203-76faa9f8a46a")
 	)
 	(wire
 		(pts
-			(xy 66.04 97.155) (xy 66.04 94.615)
+			(xy 116.84 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "eedf12ef-7f50-4466-9566-f739976bec38")
+		(uuid "6d766f9c-0a60-4e99-a19c-bc5280463653")
 	)
 	(wire
 		(pts
-			(xy 68.58 61.595) (xy 68.58 59.055)
+			(xy 78.74 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "f4788d3d-27f1-478f-b4f8-e00034541bee")
+		(uuid "7b7cb8ed-a767-4294-bf90-6a2e6ecc4092")
 	)
 	(wire
 		(pts
-			(xy 160.02 61.595) (xy 165.1 61.595)
+			(xy 88.9 66.04) (xy 88.9 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "f7734a5d-883c-427f-91c7-2bbb8db7b591")
+		(uuid "7bfa5396-261b-4de8-b1b8-d865853c56ce")
 	)
 	(wire
 		(pts
-			(xy 96.52 104.775) (xy 96.52 112.395)
+			(xy 147.32 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "f83cf429-7bf8-443f-8a7f-947fb4f4f1bb")
+		(uuid "889e6039-35b1-4b6f-be5a-e9941f3e9e2a")
 	)
 	(wire
 		(pts
-			(xy 129.54 97.155) (xy 129.54 94.615)
+			(xy 147.32 58.42) (xy 147.32 60.96)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "fb9d1cc2-74ac-43d7-aaa0-cf38cac44941")
+		(uuid "8c98210f-711f-4cc8-a1b1-95051de99b50")
 	)
 	(wire
 		(pts
-			(xy 213.36 89.535) (xy 213.36 81.915)
+			(xy 134.62 76.2) (xy 144.78 76.2)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "fdf94e5c-1948-4388-aafd-9408c0ec4515")
+		(uuid "a79c6542-9561-4223-8c09-ad976166898b")
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 182.88 92.075 0)
+	(global_label "5V"
+		(shape input)
+		(at 78.74 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "001ae808-f758-4c30-ad10-b8a9a82f9fc6")
+		(uuid "0d715822-58d9-4aae-8de2-671be835f4e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6873 92.075 0)
+			(at 73.4567 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2941,191 +1170,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape bidirectional)
-		(at 182.88 89.535 0)
+	(global_label "3.3V"
+		(shape output)
+		(at 149.86 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "023a1f2d-3865-4d38-b75f-9681e43f6570")
+		(uuid "a5323b33-fb2b-4459-a162-5aa38f9d4129")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.4502 89.535 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TAPESENSE"
-		(shape bidirectional)
-		(at 205.74 61.595 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "49c7449e-c4ff-4cf6-bd9a-f6facb8d8c29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.0667 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOTOR"
-		(shape bidirectional)
-		(at 180.34 71.755 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "5fd7cf31-1b38-48ae-a62b-b8ac841ed2d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 61.5177 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TAPEREAD"
-		(shape bidirectional)
-		(at 205.74 64.135 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "7466f199-7913-49c0-b625-c1ee834bc0c2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8221 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TAPEREAD"
-		(shape bidirectional)
-		(at 182.88 84.455 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "8affff78-8df5-4965-8351-534f11f86701")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.9621 84.455 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB5VOUT"
-		(shape bidirectional)
-		(at 205.74 53.975 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "aba756c7-40ae-4344-90df-e85706ef04a6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.2962 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "MOTOR"
-		(shape bidirectional)
-		(at 71.12 59.055 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "c1bd5e9a-6945-4e4d-b6ca-ae61e06e971a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.3573 59.055 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "TAPESENSE"
-		(shape bidirectional)
-		(at 182.88 79.375 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "ea4ece0f-15ea-4c0c-920d-6c5f62954c10")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.2067 79.375 0)
+			(at 156.9576 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,8 +1199,8 @@
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:LM2937")
-		(at 99.06 61.595 0)
+		(lib_id "cbm_ultipet_v1-eagle-import:C-EUC0603")
+		(at 144.78 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3147,174 +1208,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0e716af3-2d2b-4aa6-a06a-938677a18b42")
-		(property "Reference" "TO2"
-			(at 91.44 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LM2937-5V"
-			(at 91.44 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:TO220H"
-			(at 99.06 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B"
-			(uuid "bb6144fb-6946-416e-ae8d-c2ec6c0da1ef")
-		)
-		(pin "C"
-			(uuid "678fe105-1422-4f6a-b90e-dec32b32ed79")
-		)
-		(pin "E"
-			(uuid "7988ec79-68ba-452e-af10-7004cfde8515")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "TO2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CPOL-EUE5-10.5")
-		(at 223.52 86.995 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18653ce8-4a0f-4149-aaa8-4ffc9e8758cb")
-		(property "Reference" "C9"
-			(at 224.663 86.5124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ">=10u"
-			(at 224.663 91.5924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:E5-10,5"
-			(at 223.52 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "+"
-			(uuid "6c39324d-931e-4cfe-96aa-66fd1a057116")
-		)
-		(pin "-"
-			(uuid "d74eb80d-8308-4070-b6a2-85c0a6cfef07")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:C-EU050-030X075")
-		(at 68.58 64.135 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ab9f240-44a2-4e6d-96db-afe51dccd04d")
-		(property "Reference" "C10"
-			(at 70.104 63.754 0)
+		(uuid "36ae4cf7-8e55-4693-b642-e7a1d7cdc62f")
+		(property "Reference" "C46"
+			(at 146.304 68.199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3325,7 +1221,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 70.104 68.834 0)
+			(at 146.304 73.279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3335,8 +1231,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_usb_v1-import-fps:C050-030X075"
-			(at 68.58 64.135 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +1243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 64.135 0)
+			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +1254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 64.135 0)
+			(at 144.78 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,16 +1264,27 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "65d462d5-32b3-461d-a6a1-648c62f2710b")
+		(property "LCSC" "C14663"
+			(at 146.304 68.199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "2599f6c7-3285-4a52-8c12-36892f82556d")
+			(uuid "0f352aa7-e7b8-4ab0-9f2b-e2bfcf7c507c")
+		)
+		(pin "1"
+			(uuid "de685b7d-49f9-4731-93ca-6d8eaf53a5cb")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C10")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -3385,7 +1292,7 @@
 	)
 	(symbol
 		(lib_id "cbm_usb_v1-eagle-import:VCC")
-		(at 213.36 76.835 0)
+		(at 82.55 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3393,9 +1300,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c9aa268-66d9-47af-9c90-15ab5f7b22f3")
-		(property "Reference" "#V01"
-			(at 213.36 76.835 0)
+		(uuid "578bc66f-aa7e-45a4-900b-98d29acdd94a")
+		(property "Reference" "#SUPPLY06"
+			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +1313,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 211.455 73.66 0)
+			(at 80.645 52.705 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3417,7 +1324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 76.835 0)
+			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3428,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 76.835 0)
+			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3439,7 +1346,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 76.835 0)
+			(at 82.55 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3450,20 +1357,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "258062f5-205e-483f-b92e-c460df736932")
+			(uuid "c24a0818-7746-466e-9f48-79d03b69334e")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#V01")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "#SUPPLY06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:JP2E")
-		(at 157.48 56.515 0)
+		(lib_id "cbm_ultipet_v1-eagle-import:LDI1117")
+		(at 116.84 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3471,20 +1378,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2ffb5489-6a43-4655-8c0d-99b6c92ac79c")
-		(property "Reference" "JP3"
-			(at 153.67 56.515 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JP2E"
-			(at 163.195 56.515 90)
+		(uuid "6dd051ab-60bd-4e6a-aa9f-6697b250334c")
+		(property "Reference" "UX3"
+			(at 109.22 55.245 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,8 +1391,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_usb_v1-import-fps:JP2"
-			(at 157.48 56.515 0)
+		(property "Value" "LDI1117"
+			(at 109.22 57.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 56.515 0)
+			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +1425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 56.515 0)
+			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,27 +1435,38 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "56db18b0-6d3a-4280-b858-1420be634bfe")
+		(property "LCSC" "C6186"
+			(at 116.84 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "c96bc0b9-2fe0-42d4-8e11-ac9cde9406a3")
+			(uuid "446078d6-4e88-4172-882e-cefdddd644e8")
+		)
+		(pin "1"
+			(uuid "28aeebd3-dbe3-435e-8adb-c10c9d1d5c13")
 		)
 		(pin "3"
-			(uuid "d5c4d7ef-e53e-46f0-88c8-6158a3834257")
+			(uuid "e2f4a8ba-95a2-430c-9eec-e61f32717640")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "JP3")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "UX3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:VCC")
-		(at 66.04 92.075 0)
+		(lib_id "cbm_ultipet_v1-eagle-import:C-EUC0603")
+		(at 88.9 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3556,246 +1474,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3d753fa0-d8ff-49e5-b0e8-b6b4992dd288")
-		(property "Reference" "#V03"
-			(at 66.04 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 64.135 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a296ce4-a840-460c-9eea-66f34568e272")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#V03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:GND")
-		(at 96.52 117.475 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "41e5a770-ab36-4e2d-b090-0e6e7830df0e")
-		(property "Reference" "#GND01"
-			(at 96.52 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 93.98 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 117.475 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d048d68e-2632-4924-998a-45439359259f")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#GND01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CPOL-EUE3.5-8")
-		(at 78.74 64.135 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45271862-a960-49b3-b3c0-052cf4afe802")
-		(property "Reference" "C7"
-			(at 79.883 63.6524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47u"
-			(at 79.883 68.7324 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:E3,5-8"
-			(at 78.74 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "+"
-			(uuid "2e81b5ef-f39b-40ab-afb7-7fad0c547494")
-		)
-		(pin "-"
-			(uuid "d5c7e520-8a58-46b4-bf1e-f048bb8c53d5")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:C-EU050-025X075")
-		(at 68.58 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48a7692c-b795-4ab4-8416-a8ad3ade3fd7")
-		(property "Reference" "C5"
-			(at 70.104 104.394 0)
+		(uuid "93b1c01f-0e6c-4c49-8fa5-232918598339")
+		(property "Reference" "C43"
+			(at 90.424 68.199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3806,7 +1487,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 70.104 109.474 0)
+			(at 90.424 73.279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3816,8 +1497,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cbm_usb_v1-import-fps:C050-025X075"
-			(at 68.58 104.775 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 104.775 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +1520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 104.775 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,24 +1530,35 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "5fb50080-6021-4773-a88c-5255e2ef1bbb")
+		(property "LCSC" "C14663"
+			(at 90.424 68.199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "0a81acb1-12f4-4518-ae4e-8ab31cc81a8a")
+			(uuid "e0a51ffc-5f3a-40ba-aa9c-1019135a3280")
+		)
+		(pin "1"
+			(uuid "c725fa88-3588-41fa-ad76-3b24a5905ae0")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C5")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "C43")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:C-EU050-030X075")
-		(at 116.84 64.135 0)
+		(lib_id "Device:C_Polarized")
+		(at 96.52 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3874,31 +1566,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4dafba7d-7734-4678-b6e6-c1486ff97497")
-		(property "Reference" "C13"
-			(at 118.364 63.754 0)
+		(fields_autoplaced yes)
+		(uuid "9f0c6ebc-f1e0-49fd-a206-704349fb1b1e")
+		(property "Reference" "C47"
+			(at 99.695 67.6909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 118.364 68.834 0)
+		(property "Value" "22u"
+			(at 99.695 70.2309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "cbm_usb_v1-import-fps:C050-030X075"
-			(at 116.84 64.135 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 97.4852 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3909,7 +1602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 64.135 0)
+			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,8 +1612,19 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 64.135 0)
+		(property "Description" "Polarized capacitor"
+			(at 96.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C12891"
+			(at 99.695 67.6909 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3931,93 +1635,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b282a18-4372-43e9-8017-65dfd6d75e69")
+			(uuid "135e6e73-35c2-440c-ad28-9402882854f6")
 		)
 		(pin "2"
-			(uuid "a28f9838-b4ff-4455-8da0-ad4e5dce256d")
+			(uuid "e7443638-a387-4e2b-9eda-8e5652d33aea")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:VCC")
-		(at 165.1 53.975 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5422109e-8eb1-41f5-8310-3ab3c379abbc")
-		(property "Reference" "#V02"
-			(at 165.1 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 163.195 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f5c5373-ecdc-4874-a1f4-6f44e0918e04")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#V02")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -4025,7 +1651,7 @@
 	)
 	(symbol
 		(lib_id "cbm_usb_v1-eagle-import:3.3V")
-		(at 129.54 94.615 0)
+		(at 147.32 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4033,9 +1659,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "634091c1-449f-4ed6-a85c-2317776b93d4")
-		(property "Reference" "#P+05"
-			(at 129.54 94.615 0)
+		(uuid "a9f4dbc4-6664-45e9-a55b-8d669ae9ab3d")
+		(property "Reference" "#P+08"
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +1672,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 128.524 91.059 0)
+			(at 146.304 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4057,7 +1683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 94.615 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +1694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 94.615 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4079,7 +1705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 94.615 0)
+			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4090,20 +1716,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5685fddb-c80d-4b3d-91b6-3fe17af6c880")
+			(uuid "64f90ead-85af-46c1-8299-e89e696183f5")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#P+05")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "#P+08")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:GND")
-		(at 213.36 99.695 0)
+		(lib_id "cbm_ultipet_v1-eagle-import:GND")
+		(at 116.84 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4111,9 +1737,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "706e4282-a813-4a3d-b6a5-3901bb6db517")
-		(property "Reference" "#GND02"
-			(at 213.36 99.695 0)
+		(uuid "d8ec4e0e-d532-4c15-98db-60623dfa0155")
+		(property "Reference" "#GND025"
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +1750,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 102.235 0)
+			(at 114.3 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4135,7 +1761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 99.695 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +1772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 99.695 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +1783,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 99.695 0)
+			(at 116.84 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4168,20 +1794,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "891a2e06-e149-4274-8b43-ffbe2ecc84db")
+			(uuid "93036c2c-ada4-4be8-b1e4-22b1392638f5")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#GND02")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "#GND025")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CPOL-EUE3.5-8")
-		(at 127 64.135 0)
+		(lib_id "Device:C_Polarized")
+		(at 134.62 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4189,31 +1815,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7fd8ddcb-fd45-43c0-a50e-96c700e458e9")
-		(property "Reference" "C12"
-			(at 128.143 63.6524 0)
+		(fields_autoplaced yes)
+		(uuid "e95a2111-2841-4750-8f24-e50b8fa6bc00")
+		(property "Reference" "C45"
+			(at 137.795 67.6909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "47u"
-			(at 128.143 68.7324 0)
+		(property "Value" "22u"
+			(at 137.795 70.2309 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "cbm_usb_v1-import-fps:E3,5-8"
-			(at 127 64.135 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 135.5852 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 64.135 0)
+			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4234,8 +1861,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 127 64.135 0)
+		(property "Description" "Polarized capacitor"
+			(at 134.62 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,78 +1872,8 @@
 				)
 			)
 		)
-		(pin "+"
-			(uuid "3c90d2c5-3823-4294-9687-a614d8c6b1ea")
-		)
-		(pin "-"
-			(uuid "0ba45316-502b-4879-b195-f8ea7cc81255")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:LM2937SOT")
-		(at 96.52 99.695 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f42498d-17ef-4247-af89-4ac8e0f8895b")
-		(property "Reference" "TO1"
-			(at 88.9 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "LM2937SOT-3.3V"
-			(at 88.9 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:SOT223"
-			(at 96.52 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 99.695 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 99.695 0)
+		(property "LCSC" "C12891"
+			(at 137.795 67.6909 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4327,432 +1884,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a60c8d2-0489-425a-a29a-fcf1882bfb73")
+			(uuid "8ac4a9a9-d350-4466-bc6d-96aae8281a20")
 		)
 		(pin "2"
-			(uuid "18f18de9-f938-4def-8a49-5448781e7bd7")
-		)
-		(pin "3"
-			(uuid "fbfd1511-ebb5-4a9f-a1f1-a3f9005cc77a")
+			(uuid "40ed8d3f-d35c-47a1-b957-341007119556")
 		)
 		(instances
 			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "TO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CBMTAPE")
-		(at 160.02 81.915 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a00d91fc-4378-4f28-b5b5-89a9ed720b90")
-		(property "Reference" "P3"
-			(at 160.02 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CBMTAPE"
-			(at 160.02 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:JP6"
-			(at 160.02 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 81.915 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "873ea913-11f3-44d5-8a7c-457ebfb11863")
-		)
-		(pin "2"
-			(uuid "bfe635d8-0fb1-48f4-9551-ab31927c437b")
-		)
-		(pin "3"
-			(uuid "e6552e28-64c5-45e2-b765-fc305d811378")
-		)
-		(pin "4"
-			(uuid "50e4d5c1-68aa-4dad-822a-75f72bc85648")
-		)
-		(pin "5"
-			(uuid "4f15d85b-ad25-4892-a9a8-8aebc63a05aa")
-		)
-		(pin "6"
-			(uuid "596a3999-3d2b-418f-89eb-e868cef37a50")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "P3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CPOL-EUE5-8.5")
-		(at 114.3 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bbad2d7b-07a6-404a-897a-4c75445a3e75")
-		(property "Reference" "C34"
-			(at 115.443 104.2924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" ">=10u"
-			(at 115.443 109.3724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:E5-8,5"
-			(at 114.3 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "+"
-			(uuid "7055ed84-936c-485a-9910-7f42969933a7")
-		)
-		(pin "-"
-			(uuid "3f39b143-be58-4f82-8b9f-145a9f347240")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:CPOL-EUE5-8.5")
-		(at 76.2 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0503ef0-83bb-4cdf-a8b1-3ad13ec47074")
-		(property "Reference" "C35"
-			(at 77.343 104.2924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1u"
-			(at 77.343 109.3724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:E5-8,5"
-			(at 76.2 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "+"
-			(uuid "a3b51dc8-d2dc-426d-962d-f91d08abf364")
-		)
-		(pin "-"
-			(uuid "b840e92b-b9a1-4333-a26f-10df83328974")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:GND")
-		(at 99.06 74.295 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d16e8137-d279-465b-a6dd-44c3f018f0b0")
-		(property "Reference" "#GND09"
-			(at 99.06 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 76.835 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee8fb540-1eaf-48ba-9673-541ed6faf398")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "#GND09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cbm_usb_v1-eagle-import:C-EU050-025X075")
-		(at 124.46 104.775 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "febce4ab-26eb-4d6f-924f-5d0c9a9f050a")
-		(property "Reference" "C6"
-			(at 125.984 104.394 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100n"
-			(at 125.984 109.474 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "cbm_usb_v1-import-fps:C050-025X075"
-			(at 124.46 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 104.775 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76fe40ef-1036-40a5-8fc4-b5457c0bc7b2")
-		)
-		(pin "2"
-			(uuid "89884292-82e1-491c-9951-f5c27b6afe41")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/908a00fc-e46d-4b49-8243-1ed18566edb7"
-					(reference "C6")
+				(path "/69e69480-7ed8-4b0d-816e-564cc5bba282"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -4760,7 +1900,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "2")
+			(page "4")
 		)
 	)
 )

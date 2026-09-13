@@ -3183,6 +3183,12 @@
 		(uuid "26ad7da8-50e5-46e6-9cea-fe9f2e0c6d02")
 	)
 	(junction
+		(at 76.2 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2838935c-ea95-4160-a227-7d26e0b9fa07")
+	)
+	(junction
 		(at 104.14 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3193,6 +3199,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aaba972-df9d-42c8-b37a-73fb21714b5c")
+	)
+	(junction
+		(at 56.515 215.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b5b6d6a-dfd3-4e11-84f4-b13656a0ac87")
 	)
 	(junction
 		(at 91.44 102.87)
@@ -3243,6 +3255,12 @@
 		(uuid "47377357-9891-4bc5-9c2a-5e317354ad3a")
 	)
 	(junction
+		(at 56.515 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4822a408-fd66-4fd6-93bf-33088afc7cf5")
+	)
+	(junction
 		(at 132.08 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3265,6 +3283,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81da27c8-5471-46d5-bcf1-73cc3f9da200")
+	)
+	(junction
+		(at 81.28 215.265)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82601370-f5db-459e-b9df-ec20b21fd69c")
 	)
 	(junction
 		(at 104.14 196.85)
@@ -3678,6 +3702,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.515 196.85) (xy 56.515 198.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ecacb0-0569-4829-bb8b-aaeac361e456")
+	)
+	(wire
+		(pts
 			(xy 226.06 69.85) (xy 226.06 80.01)
 		)
 		(stroke
@@ -3705,6 +3739,16 @@
 			(type solid)
 		)
 		(uuid "1b26a147-8b33-4de3-9bf7-7c2ae47fb475")
+	)
+	(wire
+		(pts
+			(xy 81.28 216.535) (xy 81.28 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c094cf9-8b2f-4235-ab13-013313d4de9a")
 	)
 	(wire
 		(pts
@@ -3818,6 +3862,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.515 196.85) (xy 76.2 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b47bd4d-0234-46f2-a59f-1db868edaa79")
+	)
+	(wire
+		(pts
 			(xy 149.86 52.07) (xy 149.86 39.37)
 		)
 		(stroke
@@ -3855,6 +3909,16 @@
 			(type solid)
 		)
 		(uuid "3067fc7c-83cd-431b-bdc3-f7c127902eae")
+	)
+	(wire
+		(pts
+			(xy 56.515 215.265) (xy 81.28 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30da6835-a910-4318-94a8-89c6f64f83fe")
 	)
 	(wire
 		(pts
@@ -4578,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 215.265) (xy 56.515 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876257b0-4939-40f3-989e-592f33d62a51")
+	)
+	(wire
+		(pts
 			(xy 177.8 143.51) (xy 177.8 118.11)
 		)
 		(stroke
@@ -5188,6 +5262,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 196.85) (xy 56.515 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b6f327-d989-429a-bde5-a65fc3c820b7")
+	)
+	(wire
+		(pts
 			(xy 180.34 95.25) (xy 180.34 115.57)
 		)
 		(stroke
@@ -5328,6 +5412,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 215.265) (xy 81.28 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd86726-d57d-4cc4-aeca-f5d057914193")
+	)
+	(wire
+		(pts
+			(xy 40.64 213.36) (xy 40.64 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02eaf49-a3b6-485c-8af3-a43e8165b667")
+	)
+	(wire
+		(pts
 			(xy 248.92 87.63) (xy 248.92 69.85)
 		)
 		(stroke
@@ -5408,6 +5512,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 198.12) (xy 40.64 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed576d64-dc43-4513-a126-a1bc2904c1a7")
+	)
+	(wire
+		(pts
 			(xy 160.02 168.91) (xy 218.44 168.91)
 		)
 		(stroke
@@ -5485,6 +5599,16 @@
 			(type solid)
 		)
 		(uuid "f3bc63f9-7c6b-4532-ba58-09695d1d92f5")
+	)
+	(wire
+		(pts
+			(xy 56.515 213.995) (xy 56.515 215.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40875e8-3acf-41b7-86ba-6456cf4261ab")
 	)
 	(wire
 		(pts
@@ -7777,6 +7901,124 @@
 		)
 	)
 	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:7407DLS")
+		(at 40.64 205.74 0)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e9a3154-f562-49cd-83a4-c2d8ca032216")
+		(property "Reference" "IC1"
+			(at 44.45 203.8494 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS07"
+			(at 44.45 207.6594 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cbm_usb_v1-import-fps:SO14"
+			(at 40.64 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de1409c6-760e-4317-9b44-2faeb7dc82e1")
+		)
+		(pin "2"
+			(uuid "227375b2-402f-44c7-8d9d-5afeb35e9ed7")
+		)
+		(pin "3"
+			(uuid "444d75b7-8e19-4e7b-9961-e9f30275adf9")
+		)
+		(pin "4"
+			(uuid "b89fbee4-ac2c-403b-b140-0d127075aa8a")
+		)
+		(pin "5"
+			(uuid "0e53af98-f800-4b6f-9248-fda6540d5e81")
+		)
+		(pin "6"
+			(uuid "4214ed74-3fab-4e72-803f-a677a57cbb58")
+		)
+		(pin "8"
+			(uuid "67ef3224-99e6-4818-9ebc-13d56d38babc")
+		)
+		(pin "9"
+			(uuid "9d61e5f0-8ba1-46ee-8c65-57774a998f9c")
+		)
+		(pin "10"
+			(uuid "3a6ba5fc-b687-46a9-a1e3-98987bbe6e2e")
+		)
+		(pin "11"
+			(uuid "ad0fd620-27b0-47e2-92d3-fe5b35c28598")
+		)
+		(pin "12"
+			(uuid "cd4ea54c-6ac3-4832-bcb2-4eb56f6fe13a")
+		)
+		(pin "13"
+			(uuid "095ac3b7-fcb2-46cf-9e55-6541fb74021b")
+		)
+		(pin "7"
+			(uuid "97ab9357-4d42-4f22-8a69-e2dba1605841")
+		)
+		(pin "14"
+			(uuid "36ad98fc-d319-4443-bc5d-01bb0477a33e")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/12e2a5b9-c1e8-4d42-8312-4fbcd2ae4d2a"
+					(reference "IC1")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_usb_v1-eagle-import:SJW")
 		(at 226.06 161.29 90)
 		(unit 1)
@@ -8217,6 +8459,124 @@
 				(path "/12e2a5b9-c1e8-4d42-8312-4fbcd2ae4d2a"
 					(reference "IC4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:74164DLS")
+		(at 56.515 206.375 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14642d8b-3dc6-4103-97c5-eeef1c0ed3ed")
+		(property "Reference" "IC4"
+			(at 60.325 204.4844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74164DLS"
+			(at 60.325 208.2944 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "cbm_usb_v1-import-fps:SO14"
+			(at 56.515 206.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 56.515 206.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 56.515 206.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff32a114-bb5a-4b6b-84a6-fba5934fc651")
+		)
+		(pin "2"
+			(uuid "5f4042ae-2b75-4a95-add0-ba2f9ff1d3c6")
+		)
+		(pin "3"
+			(uuid "bb0ee17d-e4ad-4638-b21a-63cb62462cd6")
+		)
+		(pin "4"
+			(uuid "c54a1a79-5f7c-4bda-8929-cdc3c9f41b99")
+		)
+		(pin "5"
+			(uuid "b8afff3b-e784-45b8-81ef-ac54d307209c")
+		)
+		(pin "6"
+			(uuid "9037660b-8f23-4422-98e6-67a890ef2eaa")
+		)
+		(pin "8"
+			(uuid "d2cd1f44-9598-4c5c-80e2-146cb54a43a9")
+		)
+		(pin "9"
+			(uuid "d013edb6-1079-47c5-b515-e7753ecb25f7")
+		)
+		(pin "10"
+			(uuid "95be58fd-3f62-4de0-83f4-d4dbbb4874b9")
+		)
+		(pin "11"
+			(uuid "bc9abfd7-6c48-4a77-8cef-f848f5cec26d")
+		)
+		(pin "12"
+			(uuid "4a02d816-6b7e-4483-bc1f-7202c50bab44")
+		)
+		(pin "13"
+			(uuid "decaf324-09c6-42ff-909a-69948a787ca4")
+		)
+		(pin "7"
+			(uuid "dff064c3-e60b-44ad-8922-749fd2e67dff")
+		)
+		(pin "14"
+			(uuid "b4f5801f-9bb4-4d59-af2c-9ab01b775a94")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/12e2a5b9-c1e8-4d42-8312-4fbcd2ae4d2a"
+					(reference "IC4")
+					(unit 2)
 				)
 			)
 		)
@@ -9815,7 +10175,7 @@
 	)
 	(symbol
 		(lib_id "cbm_usb_v1-eagle-import:GND")
-		(at 81.28 212.09 0)
+		(at 81.28 219.075 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9825,7 +10185,7 @@
 		(dnp no)
 		(uuid "a148d5f8-3e37-4d04-83ca-95eafedf7d06")
 		(property "Reference" "#GND04"
-			(at 81.28 212.09 0)
+			(at 81.28 219.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +10196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 214.63 0)
+			(at 78.74 221.615 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9847,7 +10207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 212.09 0)
+			(at 81.28 219.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9858,7 +10218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 212.09 0)
+			(at 81.28 219.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9869,7 +10229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 212.09 0)
+			(at 81.28 219.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

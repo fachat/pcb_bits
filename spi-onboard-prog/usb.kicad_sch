@@ -718,6 +718,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_USB:CH341A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2692,185 +2869,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "micropet_v3-eagle-import:CPOL-EUE5-6"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.143 0.4826 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.143 -4.5974 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "micropet_v3:E5-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CPOL-EUE5-6_1_0"
-				(rectangle
-					(start -1.651 -2.54)
-					(end 1.651 -1.651)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy -1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -0.889) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at -0.5842 0.4064 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "+"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "-"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "micropet_v3-eagle-import:GND"
 			(power global)
 			(exclude_from_sim no)
@@ -3191,18 +3189,6 @@
 		(color 0 0 0 0)
 		(uuid "bef87212-e415-4381-bf33-f2ceb53c6785")
 	)
-	(junction
-		(at 122.555 163.195)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcbd5b7a-b14f-4f38-93a4-191e36ac92f3")
-	)
-	(junction
-		(at 122.555 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe8f2cb7-1397-4124-886a-abb4158f2a19")
-	)
 	(wire
 		(pts
 			(xy 233.045 74.93) (xy 241.935 74.93)
@@ -3295,16 +3281,6 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 160.655) (xy 122.555 163.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2393a40a-6ca2-4f62-80ec-6b1c5aa55d70")
-	)
-	(wire
-		(pts
 			(xy 62.23 178.435) (xy 62.23 180.975)
 		)
 		(stroke
@@ -3312,16 +3288,6 @@
 			(type default)
 		)
 		(uuid "23d7da76-f300-44c2-847f-0b84c95104e3")
-	)
-	(wire
-		(pts
-			(xy 122.555 144.78) (xy 122.555 153.035)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24237b3f-80fd-4f95-aae6-ca3e6de5be0c")
 	)
 	(wire
 		(pts
@@ -3382,16 +3348,6 @@
 			(type default)
 		)
 		(uuid "30cdb603-5780-41a9-83a9-b604d576c88d")
-	)
-	(wire
-		(pts
-			(xy 122.555 163.195) (xy 122.555 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32de5464-cdb7-45f3-a944-6c7875b83011")
 	)
 	(wire
 		(pts
@@ -3535,16 +3491,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 144.78) (xy 122.555 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a614178-ba16-48bd-9988-32beb0ecebbb")
-	)
-	(wire
-		(pts
 			(xy 162.56 86.995) (xy 177.165 86.995)
 		)
 		(stroke
@@ -3602,16 +3548,6 @@
 			(type default)
 		)
 		(uuid "76bfe276-3c8d-4236-8aa4-44f84b7bbc8c")
-	)
-	(wire
-		(pts
-			(xy 122.555 163.195) (xy 116.205 163.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843637ca-be17-406b-82df-78bec863100a")
 	)
 	(wire
 		(pts
@@ -3685,7 +3621,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 140.335) (xy 122.555 140.335)
+			(xy 77.47 140.335) (xy 114.935 140.335)
 		)
 		(stroke
 			(width 0)
@@ -3802,16 +3738,6 @@
 			(type default)
 		)
 		(uuid "c0ad311c-e036-4931-8db6-ac2ad42c1220")
-	)
-	(wire
-		(pts
-			(xy 122.555 140.335) (xy 122.555 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0fbb44f-013e-4748-a0ee-be86ec229d08")
 	)
 	(wire
 		(pts
@@ -3955,7 +3881,7 @@
 	)
 	(global_label "VCCIN"
 		(shape input)
-		(at 130.81 144.78 0)
+		(at 114.935 140.335 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3965,7 +3891,7 @@
 		)
 		(uuid "0002db83-16bc-44c7-955e-a42147d2b9b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.3591 144.78 0)
+			(at 123.4841 140.335 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,87 +4300,6 @@
 			(project "spi-onboard-prog"
 				(path "/d4f435f9-695d-422f-9894-15a20b29134d"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "micropet_v3-eagle-import:CPOL-EUE5-6")
-		(at 122.555 155.575 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a2aafaa-ae4d-4a59-87e4-dcaf6f5ae4bf")
-		(property "Reference" "C151"
-			(at 123.698 155.0924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "47u"
-			(at 123.698 160.1724 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 122.555 155.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 122.555 155.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 122.555 155.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "+"
-			(uuid "55c14d6a-e784-4bbb-a037-ede9167e8bad")
-		)
-		(pin "-"
-			(uuid "d8501c34-bc74-4bf3-85cc-3bcc77791947")
-		)
-		(instances
-			(project "spi-onboard-prog"
-				(path "/d4f435f9-695d-422f-9894-15a20b29134d"
-					(reference "C151")
 					(unit 1)
 				)
 			)
@@ -5739,8 +5584,8 @@
 		)
 	)
 	(symbol
-		(lib_id "micropet_v3-eagle-import:CPOL-EUE5-6")
-		(at 153.67 48.895 0)
+		(lib_id "Device:C_Polarized")
+		(at 153.67 50.165 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5748,31 +5593,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cf677a4a-48c3-4821-8ba4-beb47abe7f38")
-		(property "Reference" "C152"
-			(at 154.813 48.4124 0)
+		(fields_autoplaced yes)
+		(uuid "b4592f1b-7049-426f-86b9-395d19ebf12b")
+		(property "Reference" "C6"
+			(at 156.845 48.0059 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "47u"
-			(at 154.813 53.4924 0)
+			(at 156.845 50.5459 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 153.67 48.895 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 154.6352 53.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +5629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 48.895 0)
+			(at 153.67 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5793,8 +5639,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 48.895 0)
+		(property "Description" "Polarized capacitor"
+			(at 153.67 50.165 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5804,16 +5650,16 @@
 				)
 			)
 		)
-		(pin "+"
-			(uuid "2f736f2e-1d6f-4fa3-852f-2228ebb6eb2d")
+		(pin "2"
+			(uuid "eba172eb-c501-4c50-b487-b574613b7e96")
 		)
-		(pin "-"
-			(uuid "7a55f78c-502b-434b-b42d-4bcf58c9887a")
+		(pin "1"
+			(uuid "356e5e64-9043-4a3c-83ea-a13fc5d55c12")
 		)
 		(instances
 			(project "spi-onboard-prog"
 				(path "/d4f435f9-695d-422f-9894-15a20b29134d"
-					(reference "C152")
+					(reference "C6")
 					(unit 1)
 				)
 			)

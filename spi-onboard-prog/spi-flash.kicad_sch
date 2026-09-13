@@ -5,6 +5,195 @@
 	(uuid "08862253-4cc5-4225-b34d-32520e672488")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xGxx:74LVC1G125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -10.16 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G125"
+				(at 2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G125_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G125_1_1"
+				(pin input inverted
+					(at 0 10.16 270)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin tri_state line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74LS257"
 			(pin_names
 				(offset 1.016)
@@ -399,6 +588,244 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+				(at -1.27 -20.32 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -2.032 1.016)
+					(mid -1.143 1.3235)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.143 1.3235)
+					(end 2.032 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1030,13 +1457,19 @@
 	)
 	(text "4th Switch for Select of\n2nd Flash on UCPU/UPET"
 		(exclude_from_sim no)
-		(at 109.22 98.425 0)
+		(at 103.505 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "6f1818e0-2d6e-485e-a40a-bbf9af6b1a30")
+	)
+	(junction
+		(at 144.78 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3be130ec-da88-43d3-a64e-ed6f380400ed")
 	)
 	(junction
 		(at 208.915 107.315)
@@ -1049,6 +1482,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "810b5f30-b20c-45c0-8198-8eda53a0d4ef")
+	)
+	(junction
+		(at 182.245 139.065)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9146c27e-43f0-4ae9-bb36-5902dd6b6055")
 	)
 	(junction
 		(at 208.915 75.565)
@@ -1068,13 +1507,33 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 119.38)
+			(xy 144.78 114.3) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0ff8c9ae-9a0d-4193-b950-75647c4addb0")
+	)
+	(wire
+		(pts
+			(xy 208.28 131.445) (xy 208.28 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116b45c6-056e-444d-8f61-72863227d5c3")
+	)
+	(wire
+		(pts
+			(xy 85.09 139.065) (xy 182.245 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128b6258-1a11-4068-ad70-5fc9548426ed")
 	)
 	(wire
 		(pts
@@ -1085,6 +1544,26 @@
 			(type default)
 		)
 		(uuid "21d26319-d114-4f9d-8b42-960f1c1ca549")
+	)
+	(wire
+		(pts
+			(xy 182.245 91.44) (xy 198.755 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fbf33b-8005-4b6d-a791-84a76c9d9808")
+	)
+	(wire
+		(pts
+			(xy 208.28 154.94) (xy 208.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33694310-f5cf-42f3-a6c9-b3a51bdb2cbb")
 	)
 	(wire
 		(pts
@@ -1108,6 +1587,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.695 113.03) (xy 99.695 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac89480-61b8-4f52-a1a3-310359b72e22")
+	)
+	(wire
+		(pts
 			(xy 83.82 88.9) (xy 132.08 88.9)
 		)
 		(stroke
@@ -1115,6 +1604,16 @@
 			(type default)
 		)
 		(uuid "593d2b3c-4b1a-4c32-ad38-e6bc42cf38a4")
+	)
+	(wire
+		(pts
+			(xy 99.695 125.73) (xy 99.695 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bf9bff-b506-4d2a-94d4-b709eb71202b")
 	)
 	(wire
 		(pts
@@ -1188,6 +1687,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.745 120.65) (xy 118.745 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857a8b90-aff4-4f79-8761-a8f402f53567")
+	)
+	(wire
+		(pts
 			(xy 252.095 75.565) (xy 208.915 75.565)
 		)
 		(stroke
@@ -1195,6 +1704,16 @@
 			(type default)
 		)
 		(uuid "86982927-74dc-4e23-84cc-3f9f7b946791")
+	)
+	(wire
+		(pts
+			(xy 213.36 128.905) (xy 222.885 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8ac74d-b2f0-4c7e-9775-be1206c7bdda")
 	)
 	(wire
 		(pts
@@ -1208,6 +1727,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.745 104.14) (xy 132.08 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9411e296-7d29-44d1-a1f6-24ebd845050f")
+	)
+	(wire
+		(pts
 			(xy 208.915 104.14) (xy 208.915 107.315)
 		)
 		(stroke
@@ -1218,6 +1747,36 @@
 	)
 	(wire
 		(pts
+			(xy 222.885 128.905) (xy 222.885 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b87326-95e5-4f4a-a5bc-f1a7f88a6790")
+	)
+	(wire
+		(pts
+			(xy 128.905 116.84) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b646b6ad-37fa-4d26-bcfb-0edc0d825ad5")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 247.015 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb892a9c-21c9-436f-bb89-b44e795981ca")
+	)
+	(wire
+		(pts
 			(xy 110.49 83.82) (xy 132.08 83.82)
 		)
 		(stroke
@@ -1225,6 +1784,16 @@
 			(type default)
 		)
 		(uuid "bbe09aa7-c3e2-4352-ac7a-2b902ba02f99")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4027a06-643f-445f-90b9-702c30472452")
 	)
 	(wire
 		(pts
@@ -1278,6 +1847,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 91.44) (xy 182.245 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa6826b-4c66-45fc-9b25-90c9bfff6e0c")
+	)
+	(wire
+		(pts
 			(xy 208.915 107.315) (xy 252.095 107.315)
 		)
 		(stroke
@@ -1285,6 +1864,16 @@
 			(type default)
 		)
 		(uuid "e19e5852-d314-4f9f-8a0a-3ce57426e39b")
+	)
+	(wire
+		(pts
+			(xy 182.245 144.78) (xy 198.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e668d59f-bbd1-4756-9734-4f55aab49b66")
 	)
 	(wire
 		(pts
@@ -1308,6 +1897,46 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 144.78) (xy 182.245 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6bbb06-96b2-4046-b62c-a490996faf7c")
+	)
+	(wire
+		(pts
+			(xy 103.505 120.65) (xy 118.745 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd1c723-e685-42cc-b91a-da06f3c9a9b8")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 128.905 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eede0bd9-10f9-4045-9b26-decc5ac7bb26")
+	)
+	(wire
+		(pts
+			(xy 213.36 134.62) (xy 213.36 128.905)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f156c372-29a9-4321-9dfc-286dae11ef76")
+	)
+	(wire
+		(pts
 			(xy 111.125 91.44) (xy 132.08 91.44)
 		)
 		(stroke
@@ -1316,29 +1945,15 @@
 		)
 		(uuid "f55f3919-c289-43f6-a35a-580035f677c4")
 	)
-	(global_label "USB_CS2"
-		(shape input)
-		(at 176.53 28.575 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 128.905 106.68) (xy 128.905 116.84)
 		)
-		(uuid "037cc986-a97e-4430-b1a9-99953ca90c62")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9818 28.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "f6496cfb-1264-47e7-b9c0-562432931d04")
 	)
 	(global_label "/SS2"
 		(shape bidirectional)
@@ -1401,30 +2016,6 @@
 		(uuid "6bba8932-7a25-44ae-890b-d2921fed58a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.766 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "/INT2"
-		(shape bidirectional)
-		(at 85.725 37.465 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "6ef8f171-b403-4528-8f5b-a2229463ad58")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.3767 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,33 +2099,9 @@
 			)
 		)
 	)
-	(global_label "USB_CS1"
-		(shape input)
-		(at 176.53 26.035 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e337de9d-0c75-4416-8f12-1d82ff6ee81e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.9818 26.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "USB_MISO"
 		(shape input)
-		(at 176.53 41.275 0)
+		(at 247.015 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1544,7 +2111,7 @@
 		)
 		(uuid "eaad5917-7723-427d-8f03-28e6d18ff63b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.889 41.275 0)
+			(at 259.374 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1558,7 +2125,7 @@
 	)
 	(global_label "MISO2"
 		(shape bidirectional)
-		(at 80.01 52.07 180)
+		(at 85.09 139.065 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1568,7 +2135,7 @@
 		)
 		(uuid "f23ed138-a4d8-4253-91cf-049c5b161f9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3062 52.07 0)
+			(at 75.3862 139.065 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1577,6 +2144,162 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:GND")
+		(at 99.695 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a26b2f6-4774-402f-8249-8d59eb192d89")
+		(property "Reference" "#GND09"
+			(at 99.695 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.155 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.695 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e4d285c-2c8e-45f5-a252-875b71aee8c3")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:GND")
+		(at 208.28 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2887e70d-e3cd-49bc-8f1b-47dd27c767a4")
+		(property "Reference" "#GND010"
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1015a227-5b27-4b70-8507-256feffd5e50")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "#GND010")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1603,7 +2326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS257"
+		(property "Value" "74LVC257"
 			(at 146.9233 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +2337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1647,7 +2370,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2872319"
+		(property "LCSC" "C165622"
 			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -1710,6 +2433,162 @@
 			(project "spi-onboard-prog"
 				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:3.3V")
+		(at 208.28 131.445 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47a9c2c2-423a-420d-814f-80575342787b")
+		(property "Reference" "#P+07"
+			(at 208.28 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 207.264 127.889 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28b99d8d-8c27-4a15-a36c-3dad767623c6")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "#P+07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:GND")
+		(at 222.885 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "54acf402-aa3f-480f-865d-3c7cc59473f7")
+		(property "Reference" "#GND011"
+			(at 222.885 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.345 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.885 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.885 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.885 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94031eef-3ee8-426a-a6e4-f0ef9eb52c01")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "#GND011")
 					(unit 1)
 				)
 			)
@@ -2112,6 +2991,106 @@
 		)
 	)
 	(symbol
+		(lib_id "74xGxx:74LVC1G125")
+		(at 213.36 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0e50b69-2a8f-4c3e-af15-34ddcd44823a")
+		(property "Reference" "U4"
+			(at 226.06 138.3598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G125"
+			(at 226.06 140.8998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52140413"
+			(at 213.36 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd00c1da-fa5a-4a40-a129-ae503f205e6c")
+		)
+		(pin "3"
+			(uuid "76a959c1-bba9-476b-ad36-170af3bb0d4d")
+		)
+		(pin "4"
+			(uuid "59debdf2-4184-48b8-8c43-63c72bbc1338")
+		)
+		(pin "2"
+			(uuid "ea35faee-27d0-4de8-95ea-5df4de336a3d")
+		)
+		(pin "5"
+			(uuid "a9e82997-eafb-484f-a415-a7254aae0236")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "cbm_usb_v1-eagle-import:GND")
 		(at 208.915 114.935 0)
 		(unit 1)
@@ -2223,7 +3202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 208.915 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2284,6 +3263,84 @@
 			(project "spi-onboard-prog"
 				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cbm_usb_v1-eagle-import:3.3V")
+		(at 99.695 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce582432-171e-4e7a-852f-c17edc3dc906")
+		(property "Reference" "#P+06"
+			(at 99.695 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 98.679 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.695 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ae37c86-c23e-45fc-945e-95774f74c5e8")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "#P+06")
 					(unit 1)
 				)
 			)
@@ -2362,6 +3419,113 @@
 			(project "spi-onboard-prog"
 				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
 					(reference "#P+03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 99.695 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf4ee49-b518-4074-b737-79013487f92c")
+		(property "Reference" "JP2"
+			(at 96.52 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 96.52 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 99.695 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 112.395 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S5.1" "This is a generic symbol, it has fp-filter, but no default footprint"
+			(at 117.475 120.65 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "Graphical-Symbol: thickness is 6mm, fill is background"
+			(at 120.015 121.92 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b373636-c822-45a5-823c-9b016ff25a99")
+		)
+		(pin "2"
+			(uuid "acb15342-7659-4b22-9c96-f404565af727")
+		)
+		(pin "3"
+			(uuid "7d6c2e64-9b75-4915-bdf7-0c7cc48c5099")
+		)
+		(instances
+			(project "spi-onboard-prog"
+				(path "/800f82e9-fc37-4326-83f9-7b1d66f97dfb"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
