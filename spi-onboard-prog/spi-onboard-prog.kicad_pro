@@ -671,11 +671,6 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "spi-onboard-prog.kicad_sch",
-        "name": "Userport",
-        "uuid": "12e2a5b9-c1e8-4d42-8312-4fbcd2ae4d2a"
-      },
-      {
         "filename": "spi-flash.kicad_sch",
         "name": "SPI-Flash",
         "uuid": "800f82e9-fc37-4326-83f9-7b1d66f97dfb"
@@ -691,14 +686,10 @@
         "uuid": "69e69480-7ed8-4b0d-816e-564cc5bba282"
       }
     ],
-    "used_designators": "SJ1-12,#SUPPLY1,#SUPPLY3-6,U1-4,U11,CN1,J3,#P+1-8,R1,R4-5,R8-11,R19,R41-42,JP1-3,JP23,P2-3,UX3,C1-14,C34-35,C39-40,C43,C45-48,C151-152,C156,#FRAME1,IC1,IC4,#GND1-11,#GND23,#GND25,#GND104,#GND119-122,TO1-2,#V1-3,Q3",
+    "used_designators": "IC1,IC4,#FRAME1,C1-15,C34-35,C39-40,C43,C45-48,C151-152,C156,UX3,Q3,#V1-3,TO1-2,#GND1-12,#GND23,#GND25,#GND47,#GND104,#GND119-122,SJ1-12,U1-5,U11,#SUPPLY1,#SUPPLY3-6,CN1,J3,#P+1-10,R1,R4-5,R8-13,R19,R41-42,JP1-4,JP23,P2-4",
     "variants": []
   },
   "sheets": [
-    [
-      "12e2a5b9-c1e8-4d42-8312-4fbcd2ae4d2a",
-      "Userport"
-    ],
     [
       "800f82e9-fc37-4326-83f9-7b1d66f97dfb",
       "SPI-Flash"
