@@ -1624,16 +1624,6 @@
 		)
 		(uuid "58705cb7-25fe-4384-bb58-95a253426e7b")
 	)
-	(text "4th Switch for Select of\n2nd Flash on UCPU/UPET"
-		(exclude_from_sim no)
-		(at 81.28 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6f1818e0-2d6e-485e-a40a-bbf9af6b1a30")
-	)
 	(text "Access"
 		(exclude_from_sim no)
 		(at 82.55 116.205 0)

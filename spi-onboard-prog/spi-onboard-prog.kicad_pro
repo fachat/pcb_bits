@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|138985000|103630000|16b21727-6c19-45f1-b40c-a7a080c68a4f|27a4e981-ee04-43c6-97ca-24d084574ec1",
+          ""
+        ],
+        [
+          "hole_clearance|138985000|103630000|1c6473e7-f4dd-4dd3-8076-368cec70153a|27a4e981-ee04-43c6-97ca-24d084574ec1",
+          ""
+        ],
+        [
+          "hole_clearance|138985000|109730000|28450875-6bd2-4869-8ba3-75702ab164d9|c720f898-86a9-4e70-bb28-73b8c6a2ad54",
+          ""
+        ],
+        [
+          "hole_clearance|138985000|109730000|9ffc8293-95f2-4388-b1c7-902231de1a08|c720f898-86a9-4e70-bb28-73b8c6a2ad54",
+          ""
+        ],
+        [
+          "starved_thermal|139135000|101610000|57a08611-b009-4d40-9f74-82786607a37e|5c1dfb9e-7728-4659-8be6-37a04fd65562|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -686,7 +707,7 @@
         "uuid": "69e69480-7ed8-4b0d-816e-564cc5bba282"
       }
     ],
-    "used_designators": "IC1,IC4,#FRAME1,C1-15,C34-35,C39-40,C43,C45-48,C151-152,C156,UX3,Q3,#V1-3,TO1-2,#GND1-12,#GND23,#GND25,#GND47,#GND104,#GND119-122,SJ1-12,U1-5,U11,#SUPPLY1,#SUPPLY3-6,CN1,J3,#P+1-10,R1,R4-5,R8-13,R19,R41-42,JP1-4,JP23,P2-4",
+    "used_designators": "J3,CN1,#SUPPLY1,#SUPPLY3-6,U1-6,U11,P2-4,JP1-4,JP23,R1,R4-5,R8-13,R19,R41-42,#P+1-11,IC1,IC4,UX3,#FRAME1,C1-15,C34-35,C39-40,C43,C45-48,C151-152,C156,Q3,#V1-3,TO1-2,#GND1-12,#GND23,#GND25,#GND47,#GND104-105,#GND119-122,SJ1-12",
     "variants": []
   },
   "sheets": [

@@ -2440,7 +2440,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "47u"
 			(at 230.505 85.4709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,7 +3215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 99.695 70.2309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3259,7 +3259,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12891"
+		(property "LCSC" ""
 			(at 99.695 67.6909 0)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "47u"
 			(at 137.795 70.2309 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +3618,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12891"
+		(property "LCSC" ""
 			(at 137.795 67.6909 0)
 			(hide yes)
 			(show_name no)
