@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC,Quantity
+DIN-6,"J3,J4",DIN6PIEC_1,C53056242,2
+DIN-6,J1,DIN6PIEC,C54573054,1
+Micro_SD_Card_Det2,J7,microSD_HC_Hirose_DM3AT-SF-PEJM5,C114218,1
+Micro_SD_Card_Det2,J5,microSD_HC_Molex_47219-2001,C164170,1
+Micro_SD_Card_Det2,J2,microSD_HC_Molex_104031-0811,C585350,1
+Micro_SD_Card_Det2,J6,microSD_HC_Hirose_DM3D-SF,C719027,1
