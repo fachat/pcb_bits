@@ -1850,6 +1850,16 @@
 		)
 		(uuid "253bfde6-2099-4d10-b2d8-cbf7118a2609")
 	)
+	(text "1A -5V generation\nLinear Regulator"
+		(exclude_from_sim no)
+		(at 125.73 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b1f9c91-5047-423a-8739-6ff1451cd3a6")
+	)
 	(text "USB-C Power Delivery Adapter 1.4A\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
@@ -1880,6 +1890,16 @@
 			(justify left)
 		)
 		(uuid "bafc9c42-e37e-40f6-abeb-463ef917f1ac")
+	)
+	(text "1A -5V generation\nLinear Regulator"
+		(exclude_from_sim no)
+		(at 126.365 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e94bc576-134d-4042-bb31-5e1920764f0e")
 	)
 	(junction
 		(at 154.94 116.84)

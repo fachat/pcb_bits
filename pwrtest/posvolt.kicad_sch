@@ -1331,7 +1331,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5819WS"
+		(symbol "Diode:B340"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1354,7 +1354,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5819WS"
+			(property "Value" "B340"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1364,7 +1364,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
+			(property "Footprint" "Diode_SMD:D_SMC"
 				(at 0 -4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1375,7 +1375,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1386,7 +1386,7 @@
 					)
 				)
 			)
-			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1408,7 +1408,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323*"
+			(property "ki_fp_filters" "D*SMC*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1419,7 +1419,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_0_1"
+			(symbol "B340_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1457,7 +1457,7 @@
 					)
 				)
 			)
-			(symbol "1N5819WS_1_1"
+			(symbol "B340_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2679,6 +2679,16 @@
 		)
 		(uuid "901ab36c-ce4f-4200-acc0-7cb7da9ed596")
 	)
+	(text "2A 9V generation\nStep up buck converter"
+		(exclude_from_sim no)
+		(at 205.105 98.425 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aaf8aad3-3a5a-48a8-9ae2-50acd599ea6f")
+	)
 	(text "USB-C Power Delivery Adapter 1.4A"
 		(exclude_from_sim no)
 		(at 226.695 170.18 0)
@@ -2689,7 +2699,17 @@
 		)
 		(uuid "ce4c6823-40e0-41e3-a6ce-01771a51cc55")
 	)
-	(text "2A 5V generation"
+	(text "1A 3.3V generation\nLinear Regulator"
+		(exclude_from_sim no)
+		(at 95.25 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ced5ff8f-e47b-4ea4-b67f-8dea87155dcf")
+	)
+	(text "2A 5V generation\nStep-Down buck converter"
 		(exclude_from_sim no)
 		(at 93.98 24.765 0)
 		(effects
@@ -2699,7 +2719,7 @@
 		)
 		(uuid "d7f6f0c5-e0da-46f0-9ed0-d8c419f9ceda")
 	)
-	(text "1.5A 12V generation"
+	(text "1.5A 12V generation\nLinear Regulator"
 		(exclude_from_sim no)
 		(at 93.98 67.31 0)
 		(effects
@@ -5393,97 +5413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5819WS")
-		(at 220.345 108.585 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "132031a5-ef7d-4c90-9a5b-656c54dcf87f")
-		(property "Reference" "D15"
-			(at 220.6625 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819WS"
-			(at 220.6625 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 220.345 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
-			(at 220.345 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
-			(at 220.345 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C191023"
-			(at 220.345 108.585 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8424dbc-55af-4700-856e-7c063aa8fe83")
-		)
-		(pin "1"
-			(uuid "100be101-0442-45cf-99dd-baa4464f8fd9")
-		)
-		(instances
-			(project "usbpd-adapter"
-				(path "/4a647462-7ef8-4ca9-abe7-1697e001dd97/4b3bd0bf-8595-4623-908a-74aea437f66f"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 42.545 90)
 		(unit 1)
@@ -6494,6 +6423,97 @@
 			(project "usbpd-adapter"
 				(path "/4a647462-7ef8-4ca9-abe7-1697e001dd97/4b3bd0bf-8595-4623-908a-74aea437f66f"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B340")
+		(at 220.345 108.585 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45a6e28d-e2cb-433b-bbd5-1defc902f59c")
+		(property "Reference" "D15"
+			(at 220.6625 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B340A"
+			(at 220.6625 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 220.345 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 220.345 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 220.345 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3018525"
+			(at 221.9326 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c01d7f40-514f-46b5-9119-36e01b2bd96d")
+		)
+		(pin "2"
+			(uuid "36bd5500-37c7-44c3-a6a9-19604a04562d")
+		)
+		(instances
+			(project "usbpd-adapter"
+				(path "/4a647462-7ef8-4ca9-abe7-1697e001dd97/4b3bd0bf-8595-4623-908a-74aea437f66f"
+					(reference "D15")
 					(unit 1)
 				)
 			)
