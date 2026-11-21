@@ -1820,7 +1820,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C-PWR-V1.4A-20260909"
+	(text "USB-C-PWR-V1.5A-20261121"
 		(exclude_from_sim no)
 		(at 219.71 178.435 0)
 		(effects
@@ -1860,7 +1860,7 @@
 		)
 		(uuid "2b1f9c91-5047-423a-8739-6ff1451cd3a6")
 	)
-	(text "USB-C Power Delivery Adapter 1.4A\n"
+	(text "USB-C Power Delivery Adapter 1.5A\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
 		(effects
@@ -1880,7 +1880,7 @@
 		)
 		(uuid "6d6062d8-8b00-409e-bc5f-dea7cae698b2")
 	)
-	(text "1.4A:\n- proper terminal blocks"
+	(text "1.4A:\n- proper terminal blocks\n1.5A:\n- adjust LED resistors to turn down brightness"
 		(exclude_from_sim no)
 		(at 188.595 153.67 0)
 		(effects
@@ -3162,7 +3162,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "3k9"
 			(at 106.68 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C23018"
 			(at 107.315 163.1949 0)
 			(hide yes)
 			(show_name no)
@@ -4452,7 +4452,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "420"
+		(property "Value" "1k"
 			(at 93.98 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4496,7 +4496,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23057"
+		(property "LCSC" "C21190"
 			(at 93.98 163.1949 0)
 			(hide yes)
 			(show_name no)
