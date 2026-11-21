@@ -498,6 +498,111 @@
 	)
 	(symbol
 		(lib_id "Connector:DIN-6")
+		(at 141.605 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68982d1e-9918-4428-8abf-c8f8f1054aa4")
+		(property "Reference" "J8"
+			(at 143.2561 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIN-6"
+			(at 143.2561 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintsx:DIN6PIEC_1"
+			(at 141.605 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+			(at 141.605 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-pin DIN connector"
+			(at 141.605 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 141.605 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "407db9a8-221b-4528-a9b5-3bdb01e1fc90")
+		)
+		(pin "5"
+			(uuid "80970e08-0119-49ec-94c7-65c14f9c6bb7")
+		)
+		(pin "4"
+			(uuid "2b030d9b-800a-42c5-ba68-6aa150eabc69")
+		)
+		(pin "1"
+			(uuid "3edd1a20-0e71-4389-b7dc-5db59d37b4de")
+		)
+		(pin "6"
+			(uuid "bd76b7dc-3ffa-46fd-86f0-cfd09e25f76a")
+		)
+		(pin "2"
+			(uuid "18cf9f60-7905-49e2-a830-ed0577fbfabf")
+		)
+		(instances
+			(project "FootprintTest2"
+				(path "/b55c3fa1-fff3-4e0e-95d8-cf9ca3c405fd"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN-6")
 		(at 97.155 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -701,6 +806,111 @@
 			(project "FootprintTest2"
 				(path "/b55c3fa1-fff3-4e0e-95d8-cf9ca3c405fd"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DIN-6")
+		(at 161.925 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecb1c2b3-4394-476c-acb8-65b51414eb97")
+		(property "Reference" "J9"
+			(at 163.5761 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DIN-6"
+			(at 163.5761 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprintsx:DIN6PIEC_2"
+			(at 161.925 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
+			(at 161.925 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "6-pin DIN connector"
+			(at 161.925 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 161.925 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "dc1da2ba-1ecf-47ea-95ab-e2c534192bc1")
+		)
+		(pin "5"
+			(uuid "a6358607-4ea0-44ee-bc69-32ff9bf7c71e")
+		)
+		(pin "4"
+			(uuid "1bd853cf-7457-459e-9fa9-e2194fa75ce9")
+		)
+		(pin "1"
+			(uuid "0fe99dea-959a-4834-be3e-e34a33e84fdb")
+		)
+		(pin "6"
+			(uuid "dad00c63-0a08-4f2b-8367-fb5060507b7e")
+		)
+		(pin "2"
+			(uuid "0143c7f0-c8fd-4b50-83c2-07ff00f6df54")
+		)
+		(instances
+			(project "FootprintTest2"
+				(path "/b55c3fa1-fff3-4e0e-95d8-cf9ca3c405fd"
+					(reference "J9")
 					(unit 1)
 				)
 			)
